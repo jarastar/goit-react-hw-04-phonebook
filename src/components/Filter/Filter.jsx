@@ -8,9 +8,8 @@ const Filter = ({ handleChange }) => (
   </FilterWrap>
 );
 
+export default Filter;
 
 Filter.propTypes = {
   handleChange: PropTypes.func.isRequired,
 };
-
-export default Filter;

@@ -16,6 +16,7 @@ const ContactList = ({ contacts, deleteContact }) => (
   </List>
 );
 
+export default ContactList;
 
 ContactList.defaultProps = {
   contacts: [],
@@ -31,6 +32,3 @@ ContactList.propTypes = {
     })
   ),
 };
-
-
-export default ContactList;
